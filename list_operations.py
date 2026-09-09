@@ -75,6 +75,8 @@ if search_name in participants:
     else:
         qualification_status = "NOT QUALIFIED"
     print(f"Participant found: {search_name}, Score: {score}, Status: {qualification_status}")
+else:
+    print(f"Participant {search_name} not found.")
 
 
 
